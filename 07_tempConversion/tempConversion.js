@@ -1,9 +1,11 @@
-const ftoc = function() {
-
+const ftoc = function(ftemp) {
+  let ctemp = (ftemp - 32)*(5/9);
+  return round(ctemp,1);
 };
 
-const ctof = function() {
-
+const ctof = function(ctemp) {
+    let ftemp = (ctemp*(9/5))+32;
+    return round(ftemp,1);
 };
 
 function round(value, digits) {
