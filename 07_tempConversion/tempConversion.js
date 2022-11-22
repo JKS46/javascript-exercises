@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const ftoc = function(ftemp) {
   let ctemp = (ftemp - 32)*(5/9);
   return round(ctemp,1);
@@ -7,12 +6,6 @@ const ftoc = function(ftemp) {
 const ctof = function(ctemp) {
     let ftemp = (ctemp*(9/5))+32;
     return round(ftemp,1);
-=======
-const convertToCelsius = function() {
-};
-
-const convertToFahrenheit = function() {
->>>>>>> upstream/main
 };
 
 function round(value, digits) {
