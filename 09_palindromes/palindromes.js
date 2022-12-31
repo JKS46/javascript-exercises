@@ -8,6 +8,7 @@ const palindromes = function (word) {
         return true;
     }
     return false;
+    /* co pilot gave shit suggestions so assume this code is optimal */
 };
 
 // Do not edit below this line

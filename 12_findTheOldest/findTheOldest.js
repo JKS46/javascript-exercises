@@ -15,6 +15,7 @@ const findTheOldest = function(people) {
                         })
     console.log(oldTimer[0]);
     return people[people.indexOf(oldTimer[0])];
+    /* copilot used for loop,this is better according to exercise */
 };
 
 // Do not edit below this line
